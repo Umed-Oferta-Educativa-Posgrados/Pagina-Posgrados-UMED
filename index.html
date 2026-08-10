@@ -245,45 +245,64 @@
             Completa el siguiente formulario y un asesor se pondrá en contacto contigo.
         </p>
 
-        <form>
+        <form id="formularioSolicitud">
 
-            <label>Nombre completo</label>
+    <!-- Programa seleccionado -->
+    <input
+        type="hidden"
+        id="programaSeleccionado"
+        name="programa"
+    >
 
-            <input
-                type="text"
-                placeholder="Escribe tu nombre"
-            >
+    <label>Nombre completo</label>
 
-            <label>Teléfono</label>
+    <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required
+    >
 
-            <input
-                type="tel"
-                placeholder="10 dígitos"
-            >
+    <label>Teléfono</label>
 
-            <label>Correo electrónico</label>
+    <input
+        type="tel"
+        id="telefono"
+        name="telefono"
+        placeholder="10 dígitos"
+        maxlength="10"
+        required
+    >
 
-            <input
-                type="email"
-                placeholder="correo@ejemplo.com"
-            >
+    <label>Correo electrónico</label>
 
-            <label>Comentarios</label>
+    <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="correo@ejemplo.com"
+        required
+    >
 
-            <textarea
-                rows="5"
-                placeholder="Escribe aquí tus dudas..."
-            ></textarea>
+    <label>Comentarios</label>
 
-            <button
-                type="submit"
-                class="botonFormulario">
+    <textarea
+        id="comentarios"
+        name="comentarios"
+        rows="5"
+        placeholder="Escribe aquí tus dudas..."
+    ></textarea>
 
-                Enviar solicitud
+    <button
+        type="submit"
+        class="botonFormulario">
 
-            </button>
+        Enviar solicitud
 
-        </form>
+    </button>
+
+</form>
 
     </div>
 
