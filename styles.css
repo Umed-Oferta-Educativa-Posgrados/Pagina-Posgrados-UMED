@@ -663,11 +663,6 @@ background-image:url("https://images.unsplash.com/photo-1523240795612-9a054b0db6
 background-image:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40");
 }
 
-/* Separación visual antes de las maestrías de Derecho */
-#maestrias .cards .card:nth-child(3) {
-    margin-top: 50px;
-}
-
 /* ========================================
    FRANJAS DE INFORMACIÓN
    ======================================== */
@@ -699,4 +694,70 @@ background-image:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b
 
 .franja-convenio {
     margin-top: 55px;
+}
+
+/* ============================= */
+/* BOTONES DE ACCESO RÁPIDO */
+/* ============================= */
+
+.botones-posgrados {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 18px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.boton-posgrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 210px;
+    min-height: 70px;
+
+    padding: 12px 18px;
+
+    background-color: #00549a;
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    transition: 0.3s ease;
+}
+
+.boton-posgrado span {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.boton-posgrado:hover {
+    background-color: #003f73;
+    transform: translateY(-3px);
+}
+/* AJUSTE DE ESPACIO ENTRE LA INTRODUCCIÓN Y MAESTRÍAS */
+
+.introduccion {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+#maestrias {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#maestrias > h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
 }
