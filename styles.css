@@ -19,7 +19,7 @@ body{
 .hero{
 
     background:linear-gradient(rgba(247,148,29,.82),
-    rgba(221,131,15,.82)),
+rgba(221,131,15,.82)),
     url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1800");;
 
     background-size:cover;
@@ -496,7 +496,7 @@ width:120px;
 
     inset:0;
 
-    background:rgba(247,148,29,.45);
+    background:rgba(232,67,21,.70);
 
     opacity:0;
 
